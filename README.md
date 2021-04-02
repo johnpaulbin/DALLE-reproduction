@@ -1,6 +1,6 @@
 # DALLE-reproduction
 This repository is for sharing pre-trained [DALLE](https://openai.com/blog/dall-e/) model and generating images from given texts.
-All models are trained by [lucidrains/DALLE-pytorch](https://github.com/lucidrains/DALLE-pytorch) with different training code and BPE model.
+All models are trained by [lucidrains/DALLE-pytorch](https://github.com/lucidrains/DALLE-pytorch) + [VQGAN (Taming transformer)](https://github.com/CompVis/taming-transformers) with different training code and BPE model.
 If you want to train DALLE, please go to [lucidrains/DALLE-pytorch](https://github.com/lucidrains/DALLE-pytorch) and support them to reproduce better DALLE models :)
 
 ### The notebook includes
@@ -13,15 +13,7 @@ If you want to train DALLE, please go to [lucidrains/DALLE-pytorch](https://gith
 ## Usage
 1. Install requirements
 ```
-# Install DALLE-pytorch
-$ pip install dalle-pytorch==0.7.2
-
-# Install CLIP
-$ pip install ftfy regex tqdm
-$ pip install git+https://github.com/openai/CLIP.git
-
-# Install huggingface tokenizer
-$ pip install tokenizers
+$ pip install -r requirements
 ```
 
 2. Install DeepSpeed
@@ -33,5 +25,5 @@ $ pip install tokenizers
 
 Dataset | Download | Password | Details
 -- | -- | -- | --
-CUB200 | [link](https://dubox.com/s/1cBrzsPZ9WeBZ47OMlZV9rw) | v9ge | Adam optimizer
-CUB200 | [link](https://dubox.com/s/1e3RTwdWYsKcs4RtKATfQNg) | 47w1 | AdamW optimizer
+CUB200 | [link](https://dubox.com/s/1cBrzsPZ9WeBZ47OMlZV9rw) | v9ge | [Adam optimizer](https://github.com/lucidrains/DALLE-pytorch/discussions/131#discussion-3296648)
+CUB200 | [link](https://dubox.com/s/1e3RTwdWYsKcs4RtKATfQNg) | 47w1 | [AdamW optimizer](https://github.com/lucidrains/DALLE-pytorch/discussions/139#discussioncomment-560790)
