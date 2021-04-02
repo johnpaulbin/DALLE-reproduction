@@ -9,9 +9,11 @@ If you want to train DALLE, please go to [lucidrains/DALLE-pytorch](https://gith
 - Text to image generation
 
 - Pre-trained CLIP reranking
+
 <img src="./images/reranking.png" width="700px"></img>
 
 - Generate rest of image based on the given cropped image
+
 <img src="./images/cropped.png" width="700px"></img>
 
 ## Usage
