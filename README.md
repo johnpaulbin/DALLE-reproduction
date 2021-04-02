@@ -1,12 +1,16 @@
 # DALLE-reproduction
 This repository is for sharing pre-trained [DALLE](https://openai.com/blog/dall-e/) model and generating images from given texts.
+
 All models are trained by [lucidrains/DALLE-pytorch](https://github.com/lucidrains/DALLE-pytorch) + [VQGAN (Taming transformer)](https://github.com/CompVis/taming-transformers) with different training code and BPE model.
-If you want to train DALLE, please go to [lucidrains/DALLE-pytorch](https://github.com/lucidrains/DALLE-pytorch) and support them to reproduce better DALLE models :)
+
+If you want to train DALLE, please go to [lucidrains/DALLE-pytorch](https://github.com/lucidrains/DALLE-pytorch) and support them to reproduce better DALLE models ✈️
 
 ### The notebook includes
 - Text to image generation
+
 - Pre-trained CLIP reranking
 <img src="./images/reranking.png" width="700px"></img>
+
 - Generate rest of image based on the given cropped image
 <img src="./images/cropped.png" width="700px"></img>
 
