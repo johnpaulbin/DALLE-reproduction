@@ -6,18 +6,24 @@ All models are trained by [lucidrains/DALLE-pytorch](https://github.com/lucidrai
 If you want to train DALLE, please go to [lucidrains/DALLE-pytorch](https://github.com/lucidrains/DALLE-pytorch) and support them to reproduce better DALLE models ✈️
 
 ### The notebook includes
-- Text to image generation
+#### 1. Text to image generation
 
-- Pre-trained CLIP reranking
-  - CUB200
+#### 2. Pre-trained CLIP reranking
+- CUB200
+
 <img src="./images/cub_reranking.png" width="700px"></img>
-  - COCO
+
+- COCO
+
 <img src="./images/coco_reranking.png" width="700px"></img>
 
-- Generate rest of image based on the given cropped image
-  - CUB200
+#### 3. Generate rest of image based on the given cropped image
+- CUB200
+
 <img src="./images/cub_cropped.png" width="700px"></img>
-  - COCO
+
+- COCO
+
 <img src="./images/coco_cropped.png" width="700px"></img>
 
 ## Usage
